@@ -27,5 +27,31 @@ namespace Shopping
                 {"banana",new Offer{Discount=130,NumberOfPiece=3}}
             };
         }
+        private bool OfferFound(string item)
+        {
+            if (_offers.ContainsKey(item))
+            {
+                return true;
+            }
+            return false;
+        }
+        private int GetOfferPrice(string item)
+        {
+            Offer numberOfItem = null;
+            if (_offers.TryGetValue(item, out numberOfItem))
+            {
+                return numberOfItem.Discount;
+            }
+            return -1;
+        }
+        private int GetOfferNumber(string item)
+        {
+            Offer numberOfItem = null;
+            if (_offers.TryGetValue(item, out numberOfItem))
+            {
+                return numberOfItem.NumberOfPiece;
+            }
+            return -1;
+        }
     }
 }
