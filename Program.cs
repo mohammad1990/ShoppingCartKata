@@ -6,7 +6,8 @@ namespace Shopping
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Checkout checkout = new Checkout();
+            int totalePrice = checkout.calculatesTotalPrice();
         }
     }
 }
