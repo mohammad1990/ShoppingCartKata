@@ -9,3 +9,7 @@
 /Users/mohammadtofi/Desktop/Shopping/obj/Debug/netcoreapp2.1/Shopping.AssemblyInfo.cs
 /Users/mohammadtofi/Desktop/Shopping/obj/Debug/netcoreapp2.1/Shopping.dll
 /Users/mohammadtofi/Desktop/Shopping/obj/Debug/netcoreapp2.1/Shopping.pdb
+/Users/mohammadtofi/Desktop/Shopping/bin/Debug/netcoreapp2.1/NUnit3.TestAdapter.dll
+/Users/mohammadtofi/Desktop/Shopping/bin/Debug/netcoreapp2.1/NUnit3.TestAdapter.pdb
+/Users/mohammadtofi/Desktop/Shopping/bin/Debug/netcoreapp2.1/nunit.engine.netstandard.dll
+/Users/mohammadtofi/Desktop/Shopping/bin/Debug/netcoreapp2.1/Mono.Cecil.dll
